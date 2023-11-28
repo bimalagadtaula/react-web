@@ -3,13 +3,13 @@ import React from "react";
 import {BsInfoCircleFill} from "react-icons/bs";
 import PageHeader from "../../Components/PageHeader";
 import './style.scss';
-const Contact=()=>{
+const Portfolio=()=>{
     return (
-      <section id="contact_me">
+      <section id="portfolio">
       <PageHeader
-      headertxt="Contact me"
+      headertxt="My Portfolio"
       icon = {<BsInfoCircleFill size={20}/>} />
     </section>
       );
 } 
-export default Contact;
+export default Portfolio;

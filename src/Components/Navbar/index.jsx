@@ -15,14 +15,22 @@ const data = [
         to: "/about",
     },
     {
-        label: "case study",
+        label: "Contact",
+        to: "/contact",
+    },
+    {
+        label: "Resume",
         to: "/resume",
+    },
+    
+    {
+        label: "Portfolio",
+        to: "/portfolio",
     },
     {
         label: "Contact",
         to: "/contact",
     },
-
 ]
 
 const Navbar = () => {
@@ -30,6 +38,7 @@ const Navbar = () => {
     const handleToggleIcon = () => {
         setToggleIcon(!toggleIcon)
     }
+    
     return (
 
         <div>

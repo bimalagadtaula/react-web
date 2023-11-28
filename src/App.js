@@ -3,6 +3,8 @@ import { Routes, Route, useLocation  } from "react-router-dom";
 import Home from "./Containers/home";
 import About from './Containers/about';
 import Contact from './Containers/contact';
+import Portfolio from './Containers/portfolio';
+import Skills from './Containers/skills';
 import Resume from './Containers/resume';
 import Navbar from './Components/Navbar';
 import Particles from "react-tsparticles";
@@ -28,6 +30,8 @@ function App() {
         <Route index path='/about' element={<About />} />
         <Route index path='/contact' element={<Contact />} />
         <Route index path='/resume' element={<Resume />} />
+        <Route index path='/portfolio' element={<Portfolio />} />
+        <Route index path='/skills' element={<Skills />} />
       </Routes>
      {/* particle js content */}
      {

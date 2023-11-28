@@ -1,0 +1,76 @@
+#home {
+    position: absolute;
+    color: white;
+    z-index: 999;
+    top: 9%;
+    left: 0%;
+    height: calc(100% - 9%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__text-wrapper {
+    color: var(--yellow-theme-main);
+    font-size: 2.4rem;
+    white-space: nowrap;
+    font-weight: lighter;
+    position: relative;
+    overflow: hidden; 
+    width: 0; /* Set initial width to 0 */
+    animation: typingeffect 4.5s steps(30, end) forwards; 
+}
+
+@keyframes typingeffect {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .home__text-wrapper {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 760px) {
+    .home__text-wrapper {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 990px) {
+    .home__text-wrapper {
+        font-size: 2.4rem;
+        line-height: 5rem;
+    }
+}
+.home__contact-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 62%;
+    height:10%;
+
+}
+.button1{
+    background: transparent;
+    border: 1px solid white;
+    color:var(--yellow-theme-main);
+    padding: 0.5% 2.5%;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    cursor:pointer;
+ }
+ .button1:hover{
+    background: var(--yellow-theme-main);
+    color:black; 
+ }

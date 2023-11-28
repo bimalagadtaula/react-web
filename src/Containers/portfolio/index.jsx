@@ -5,7 +5,7 @@ import PageHeader from "../../Components/PageHeader";
 import './style.scss';
 const Portfolio=()=>{
     return (
-      <section id="portfolio">
+      <section id="Portfolio">
       <PageHeader
       headertxt="My Portfolio"
       icon = {<BsInfoCircleFill size={20}/>} />
